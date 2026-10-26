@@ -1,0 +1,25 @@
+{
+  "name": "space-relics-3d",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Space Relics 3D — Next.js interactive Solar System explorer",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dataset": "python3 tools/build-dataset.py",
+    "analyze": "python3 tools/analyze-dataset.py"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "next": "14.2.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
